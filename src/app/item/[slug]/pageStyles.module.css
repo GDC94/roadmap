@@ -1,0 +1,10 @@
+
+
+.container {
+    max-width: 1200px;
+    background-color: rgb(29, 29, 29);
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    padding: 2rem;
+}

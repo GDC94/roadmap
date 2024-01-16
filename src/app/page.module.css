@@ -18,6 +18,14 @@
   font-family: var(--font-mono);
 }
 
+.title {
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+  font-size: 46px;
+  color: rgb(149, 81, 244);
+
+}
+
 .description a {
   display: flex;
   justify-content: center;
@@ -47,7 +55,7 @@
 }
 
 .card {
-  padding: 1rem 1.2rem;
+  padding: .8rem 1.2rem;
   border-radius: var(--border-radius);
   background: rgba(var(--card-rgb), 0);
   border: 1px solid rgba(var(--card-border-rgb), 0);
@@ -56,7 +64,7 @@
 
 .card span {
   display: inline-block;
-  transition: transform 200ms;
+  transition: transform 300ms;
 }
 
 .card h2 {
@@ -83,8 +91,8 @@
 .center::before {
   background: var(--secondary-glow);
   border-radius: 50%;
-  width: 480px;
-  height: 360px;
+  width: 780px;
+  height: 500px;
   margin-left: -400px;
 }
 
@@ -107,6 +115,7 @@
 .logo {
   position: relative;
 }
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
@@ -178,11 +187,9 @@
     border-radius: 0;
     border: none;
     border-bottom: 1px solid rgba(var(--callout-border-rgb), 0.25);
-    background: linear-gradient(
-      to bottom,
-      rgba(var(--background-start-rgb), 1),
-      rgba(var(--callout-rgb), 0.5)
-    );
+    background: linear-gradient(to bottom,
+        rgba(var(--background-start-rgb), 1),
+        rgba(var(--callout-rgb), 0.5));
     background-clip: padding-box;
     backdrop-filter: blur(24px);
   }
@@ -193,11 +200,9 @@
     inset: auto 0 0;
     padding: 2rem;
     height: 200px;
-    background: linear-gradient(
-      to bottom,
-      transparent 0%,
-      rgb(var(--background-end-rgb)) 40%
-    );
+    background: linear-gradient(to bottom,
+        transparent 0%,
+        rgb(var(--background-end-rgb)) 40%);
     z-index: 1;
   }
 }
@@ -223,6 +228,7 @@
   from {
     transform: rotate(360deg);
   }
+
   to {
     transform: rotate(0deg);
   }

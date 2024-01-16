@@ -1,0 +1,106 @@
+{
+    "technologies": [
+        {
+            "id": "1",
+            "name": "Typescript",
+            "description": "Typescript roadmap",
+            "link": "https://www.totaltypescript.com/"
+          },
+          {
+            "id": "2",
+            "name": "SWR",
+            "description": "Lib for data fetching by Vercel",
+            "link": "https://swr.vercel.app/"
+          },
+          {
+            "id": "3",
+            "name": "React Query",
+            "description": "Tool for data fetching",
+            "link": "https://tanstack.com/query/v3/"
+          },
+          {
+            "id": "4",
+            "name": "Docker",
+            "description": "software platform that allows you to build, test, and deploy applications",
+            "link": "https://www.docker.com/"
+          },
+          {
+            "id": "5",
+            "name": "Interviews questions",
+            "description": "",
+            "link": ""
+          },
+          {
+            "id": "6",
+            "name": "Framer Motion",
+            "description": "Lib for animations",
+            "link": "https://www.framer.com/motion/"
+          },
+          {
+            "id": "7",
+            "name": "GSAP",
+            "description": "Lib for animations",
+            "link": "https://gsap.com/"
+          },
+          {
+            "id": "8",
+            "name": "AWS",
+            "description": "Cloud solutions - Devops",
+            "link": "https://aws.amazon.com/es/"
+          },
+          {
+            "id": "9",
+            "name": "Next js",
+            "description": "Next js Framework",
+            "link": "https://nextjs.org/"
+          },
+          {
+            "id": "10",
+            "name": "UI Libs",
+            "description": "Styled lib components",
+            "link": ""
+          },
+          {
+            "id": "11",
+            "name": "Solidity & Tools",
+            "description": "",
+            "link": "https://solidity-es.readthedocs.io/es/latest/#"
+          },
+          {
+            "id": "12",
+            "name": "CSS Concepts",
+            "description": "",
+            "link": "https://courses.joshwcomeau.com/"
+          },
+          {
+            "id": "13",
+            "name": "Resources",
+            "description": "List of resources",
+            "link": ""
+          },
+          {
+            "id": "14",
+            "name": "Testing tools",
+            "description": " JavaScript Testing Frameworks",
+            "link": "https://jestjs.io/"
+          },
+          {
+            "id": "15",
+            "name": "GraphQl",
+            "description": "GraphQL is a query language for APIs",
+            "link": "https://graphql.org/"
+          },
+          {
+            "id": "16",
+            "name": "Jenkins",
+            "description": "Automation server",
+            "link": "https://www.jenkins.io/"
+          },
+          {
+            "id": "17",
+            "name": "Others",
+            "description": "Courses, tools, repositories",
+            "link": ""
+          }
+    ]
+}
