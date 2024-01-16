@@ -21,7 +21,7 @@
           {
             "id": "4",
             "name": "Docker",
-            "description": "software platform that allows you to build, test, and deploy applications",
+            "description": "software platform that allows you to build, test, and deploy apps",
             "link": "https://www.docker.com/"
           },
           {
@@ -98,9 +98,17 @@
           },
           {
             "id": "17",
+            "name": "Kubernetes",
+            "description": "Automation server",
+            "link": "https://kubernetes.io/es/"
+          },
+          {
+            "id": "18",
             "name": "Others",
             "description": "Courses, tools, repositories",
             "link": ""
           }
     ]
 }
+
+

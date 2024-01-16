@@ -26,12 +26,7 @@ export default async function Home() {
       <div className={styles.grid}>
         {technologies &&
           technologies?.map((item) => (
-            <a
-              key={item.id}
-              href={`/item/${item.id}`}
-              className={styles.card}
-            
-            >
+            <a key={item.id} href={`/item/${item.id}`} className={styles.card}>
               <h2>
                 {item.name} <span>-&gt;</span>
               </h2>
